@@ -4,7 +4,10 @@ import java.util.*;
 
 public class Sistema
 {
-    //armazena hospedes
+    //Estrutura escolhida: List, ArrayList.
+    //Estrutura armazena os dados dos clientes e quarto do hotel
+    //Motivos: Estrutura dinamica, se cadastrar um hospede a array se redimensiona
+    //Podemos manipular os dados na posição que estão
     private static ArrayList<Hospede> dados = new ArrayList<Hospede>();
 
     //obtem dados dos hóspedes
