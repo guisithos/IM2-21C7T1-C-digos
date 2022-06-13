@@ -10,7 +10,7 @@ public class Principal
         int opt = 0;
         while (res.equalsIgnoreCase("sim")) 
         {
-            opt = EntradaSaida.receberInt("1: cad, 2: pesq");
+            opt = EntradaSaida.receberInt("1: cadastro, 2: pesq");
             switch(opt) {
                 case 1:
                     Sistema.cadastrarHospede();
