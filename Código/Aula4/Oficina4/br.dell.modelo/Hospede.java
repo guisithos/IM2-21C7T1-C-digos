@@ -1,4 +1,5 @@
 package br.dell.model;
+
 /**
  * @author: Guilherme Thomas
  * @version: v0.5
