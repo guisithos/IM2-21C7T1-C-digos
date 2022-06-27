@@ -1,5 +1,6 @@
 package br.dell.model;
 
+//@
 public class Quarto {
     private int numero;
     private Hospede hospede;
